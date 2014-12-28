@@ -1,4 +1,4 @@
 Cocos2dxCleanMemory
 ===================
 
-no leak for cocos2d-x
+no leaks for cocos2d-x
