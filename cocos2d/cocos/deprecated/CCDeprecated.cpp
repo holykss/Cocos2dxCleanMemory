@@ -87,7 +87,7 @@ void ccDrawInit()
 
 void ccDrawFree()
 {
-    DrawPrimitives::free();
+    DrawPrimitives::dpfree();
 }
 
 void ccDrawPoint( const Vec2& point )

@@ -82,7 +82,7 @@ namespace DrawPrimitives
     CC_DEPRECATED_ATTRIBUTE void CC_DLL init();
 
     /** Frees allocated resources by the drawing primitives */
-    CC_DEPRECATED_ATTRIBUTE void CC_DLL free();
+    CC_DEPRECATED_ATTRIBUTE void CC_DLL dpfree();
 
     /** draws a point given x and y coordinate measured in points */
     CC_DEPRECATED_ATTRIBUTE void CC_DLL drawPoint(const Vec2& point);
