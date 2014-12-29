@@ -72,6 +72,11 @@ bool HelloWorld::init()
     // add the sprite as a child to this layer
     this->addChild(sprite, 0);
     
+	runAction(Sequence::create(
+		DelayTime::create(0.3f),
+		CallFunc::create([]{Director::getInstance()->end(); }),
+		nullptr));
+
     return true;
 }
 
